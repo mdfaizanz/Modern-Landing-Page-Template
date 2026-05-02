@@ -827,6 +827,10 @@ span {
     margin-top: 20px;
   }
 
+  .hero h2 span {
+    font-size: 45px;
+  }
+
   .about-sec {
     flex-direction: row;
   }
