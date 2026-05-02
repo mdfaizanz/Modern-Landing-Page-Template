@@ -142,6 +142,10 @@ p {
   margin: 3rem;
 }
 
+.hero h2 {
+  font-size: 75px;
+}
+
 .hero-info {
   display: flex;
   align-items: center;
@@ -818,6 +822,10 @@ span {
     flex-direction: column;
   }
 
+  .hero-info p{
+    margin-top: 2rem;
+  }
+
   .hero-para {
     padding-right: 0;
   }
@@ -831,18 +839,26 @@ span {
     font-size: 45px;
   }
 
+  .img-cta {
+    width: 60%;
+  }
+
   .about-sec {
     flex-direction: row;
   }
 
+  .about-list li {
+    font-size: 20px;
+  }
+
   .about p {
     width: 100%;
-    font-size: 28px;
+    font-size: 22px;
   }
 
   .about-sec img {
     width: 100%;
-    height: 400px;
+    height: 500px;
   }
 
   .highlights {
@@ -863,11 +879,16 @@ span {
 
   .features h1 {
     margin-top: 1rem;
-    margin-left: 0;
+    margin-left: 2rem;
   }
 
   .features-info {
-    width: 100%;
+    width: 50%;
+    font-size: 15px;
+  }
+
+  .features p {
+    width: 90%;
   }
 
   .text h1 {
